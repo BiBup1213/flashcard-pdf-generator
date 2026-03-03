@@ -1,157 +1,157 @@
-Flashcard PDF Generator (Karteikarten-PDF aus JSON)
+# Flashcard PDF Generator (Karteikarten-PDF aus JSON)
 
-Ein simples Python-Tool zur Erstellung druckbarer Lern-Karteikarten aus einer JSON-Datei.
+Ein kleines, simples Python-Tool, mit dem du dir aus einer JSON-Datei **eigene Lern-Karteikarten als druckbare PDF** erzeugen kannst.
 
-Kurz gesagt:
-Fragen & Antworten als JSON → druckfertige PDF mit Karteikarten.
+---
 
-🧠 Was macht das Tool?
+## 🧠 Was macht das Tool?
 
-Das Script liest eine JSON-Datei mit Frage-Antwort-Paaren ein und erzeugt daraus eine PDF im A4-Format.
+Du gibst eine JSON-Datei mit **Fragen & Antworten** vor – das Script erzeugt daraus eine **A4-PDF** im Raster **4 × 2** (also **8 Karten pro Seite**).
 
-Pro Seite werden 8 Karteikarten erstellt (4 Zeilen × 2 Spalten).
-Die Rückseite wird automatisch so vorbereitet, dass beim beidseitigen Druck Frage und Antwort korrekt übereinanderliegen.
+Gedacht ist das für alle, die sich auf Prüfungen (oder generell Lernstoff) vorbereiten und lieber **physische Karteikarten** nutzen, statt alles nur digital zu konsumieren.
 
-Das Tool erzeugt keine Inhalte – es kümmert sich ausschließlich um Layout und Druckformatierung.
+---
 
-🏁 Hintergrund
+## 🏁 Warum gibt’s das?
 
-Das Projekt entstand während meiner Vorbereitung auf die Abschlussprüfung als Fachinformatiker für Anwendungsentwicklung.
+Ich habe das Tool damals gebaut, als ich mich auf meine Abschlussprüfung (Fachinformatiker Anwendungsentwicklung) vorbereitet habe.
 
 Ich wollte:
+- Lerninhalte flexibel in **Frage/Antwort** strukturieren
+- daraus schnell **druckbare Karten** machen
+- ohne großen Overhead oder fancy Plattform
 
-Lerninhalte strukturiert in Frage/Antwort-Form bringen
+Das ist bewusst kein „Riesenprojekt“, sondern ein pragmatisches Hilfstool.
 
-daraus schnell physische Karteikarten erzeugen
+---
 
-keine komplexe Lernplattform nutzen
+## ✨ Features
 
-ein simples, kontrollierbares Tool
+- PDF-Erzeugung aus Q&A-JSON
+- 8 Karten pro A4-Seite (4 Zeilen × 2 Spalten)
+- Text wird **horizontal & vertikal zentriert**
+- Zeilenumbrüche werden unterstützt (`\n`)
+- Rahmen + Label (F = Frage / A = Antwort)
+- **Rückseiten-Layout wird passend vorbereitet**, damit Frage und Antwort beim beidseitigen Druck korrekt zusammenpassen 
+ *(Hinweis: Dadurch wirkt die Rückseite “gespiegelt” – das ist Absicht.)*
 
-Das Ergebnis ist ein bewusst schlankes Script mit klarer Funktion:
-JSON → Karteikarten-PDF
+---
 
-✨ Features
+## 📦 Voraussetzungen
 
-PDF-Erzeugung aus strukturierter Q&A-JSON
+- **Python 3**
+- Python-Paket **reportlab**
 
-8 Karten pro A4-Seite (4 × 2 Raster)
+Installation:
 
-Horizontale und vertikale Textzentrierung
-
-Automatischer Zeilenumbruch
-
-Automatische Schriftgrößenanpassung bei längeren Texten
-
-Rahmen um jede Karte
-
-Label „F“ (Frage) und „A“ (Antwort)
-
-Druckoptimierte Rückseitenanordnung
-
-📦 Voraussetzungen
-
-Python 3
-
-Python-Bibliothek: reportlab
-
-🔧 Installation
-1. Abhängigkeit installieren
+```bash
 pip install reportlab
-2. Optional (empfohlen): Virtuelle Umgebung nutzen
-python -m venv .venv
 
-Aktivieren:
-
-Windows
-
-.venv\Scripts\activate
-
-macOS / Linux
-
-source .venv/bin/activate
-
-Danach:
-
-pip install reportlab
-🚀 Projekt herunterladen
-Variante A – Repository klonen
+## 🚀 Installation / Download
+Variante A: Repository klonen
 git clone https://github.com/<DEIN-USERNAME>/<DEIN-REPO>.git
 cd <DEIN-REPO>
-Variante B – ZIP herunterladen
+Variante B: ZIP herunterladen
+Auf GitHub: Code → Download ZIP
 
-Auf GitHub auf Code klicken
-
-Download ZIP auswählen
 
 ZIP entpacken
 
+
 Ordner öffnen
 
+
+
 🧾 JSON-Format
-
-Die JSON-Datei muss folgendes Format besitzen:
-
+Die JSON-Datei muss so aufgebaut sein:
 {
-  "karten": [
-    {
-      "frage": "Was ist ein Monopol?",
-      "antwort": "Eine Marktform mit nur einem Anbieter und vielen Nachfragern."
-    },
-    {
-      "frage": "Nenne die vier klassischen Marktformen.",
-      "antwort": "Polypol, Oligopol, Monopol, bilaterales Monopol."
-    }
-  ]
+ "karten": [
+   {
+     "frage": "Was ist ein Monopol?",
+     "antwort": "Eine Marktform mit nur einem Anbieter und vielen Nachfragern."
+   },
+   {
+     "frage": "Nenne die vier klassischen Marktformen.",
+     "antwort": "Polypol, Oligopol, Monopol, bilaterales Monopol."
+   }
+ ]
 }
 Hinweise
-
 Die Schlüssel heißen exakt: karten, frage, antwort
 
-Zeilenumbrüche können mit \n eingefügt werden
 
-Die Reihenfolge bestimmt die Kartenreihenfolge
+Zeilenumbrüche in Texten kannst du mit \n einbauen (z.B. für Listen)
+
+
+Die Reihenfolge in der Datei ist die Reihenfolge in der PDF
+
+
 
 ▶️ Nutzung
+Wenn dein Script (wie in deinem aktuellen Setup) am Ende direkt create_flashcards_pdf(...) aufruft, reicht:
 python import_fragenantworten.py
+Danach liegt die erzeugte PDF im Projektordner (Dateiname hängt vom Script ab, z.B. Karteikarten_....pdf).
 
-Falls du andere Dateinamen verwenden willst, passe den Funktionsaufruf im Script an:
-
-create_flashcards_pdf("meine_datei.json", "output.pdf")
-🖨️ Drucken
-
+🖨️ Drucken (kurzer Hinweis)
 Beidseitig drucken
 
-An der langen Kante wenden
 
-Skalierung auf 100 % lassen
+In den Druckeinstellungen idealerweise: an langer Kante wenden (Duplex)
 
-Die Rückseite wirkt gespiegelt – das ist technisch notwendig.
 
-💡 Tipps für gute Karteikarten
+Skalierung/Anpassung: 100% (nicht “An Seite anpassen”)
 
+
+Dass die Rückseiten „gespiegelt“ wirken, ist normal – das sorgt dafür, dass Frage/Antwort nach dem Schneiden passen.
+
+💡 Tipps zum Erstellen guter Q&A-Karten
+Ein paar einfache Regeln machen Karteikarten deutlich besser:
 1 Karte = 1 Kernpunkt
 
-Antworten kurz und präzise halten
 
-Lange Listen lieber auf mehrere Karten aufteilen
+Antwort kurz halten (nicht essayartig)
 
-Definitionen, Unterschiede und Schritte funktionieren besonders gut
 
-📁 Projektstruktur
+lieber mehrere kleine Karten statt einer riesigen
+
+
+Definitionen, Unterschiede, Aufzählungen und Schritte funktionieren besonders gut
+
+
+Q&A mit Weblinks / KI erstellen (pragmatisch)
+Du kannst dir Fragen & Antworten auch mit Tools generieren lassen (z.B. über KI) und dann in das JSON übertragen.
+Beispiel-Prompt-Idee (für dich oder andere Tools):
+„Erstelle mir Lernkarteikarten im Frage/Antwort-Format zum Thema X.
+ Niveau: Y (z.B. Klassenarbeit 10. Klasse / IHK / Uni).
+ Antworten bitte maximal 2–4 Sätze.
+ Nutze klare, prüfungsnahe Fragen.“
+Danach:
+Output kurz durchgehen (Dopplungen raus, zu lange Antworten kürzen)
+
+
+ins JSON übernehmen
+
+
+PDF generieren
+
+
+
+🧩 Projektstruktur (typisch)
 .
 ├── import_fragenantworten.py
 ├── fragen_und_antworten.json
 └── README.md
-🔮 Ausblick
 
-Mögliche Erweiterungen:
+🔮 Ausblick (optional)
+Langfristig wäre es denkbar, das Ganze zu erweitern, z.B.:
+einfache UI zur Erstellung der JSON-Datei
 
-GUI zur Erstellung der JSON-Datei
 
-Import aus Text oder PDF
+Import aus Text/PDF
 
-Halbautomatische Q&A-Erstellung
 
-Der aktuelle Fokus bleibt bewusst:
-Einfaches, sauberes Tool für druckbare Karteikarten.
+(später) halbautomatische Q&A-Erstellung aus Material
+
+
+Aktuell bleibt es bewusst bei der Kernfunktion: JSON → druckbare Karteikarten-PDF.
+
