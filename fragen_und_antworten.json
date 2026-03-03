@@ -1,0 +1,612 @@
+{
+    "karten": [
+        {
+            "frage": "Was versteht man unter einem Convertible?",
+            "antwort": "Gerät, das sowohl als Laptop als auch als Tablet verwendet werden kann."
+        },
+        {
+            "frage": "Welche Aufgabe übernimmt ein Datenbankmanagementsystem?",
+            "antwort": "Verwaltung von Datenbanken, Speicherung, Abfrage, Sicherheit, Mehrbenutzerzugriff."
+        },
+        {
+            "frage": "Welche verkürzte Schreibweise der IPv6-Adresse 2001:0db8:0f3c:00d7:7dab:03d0:0000:00ff sind erlaubt?",
+            "antwort": "2001:db8:f3c:d7:7dab:3d:0\\n2001:db8:f3c:d7:7dab:3d0:0\\n2001:db8:f3c:d7:7dab:3d0::ff"
+        },
+        {
+            "frage": "Wie sieht das SQL-Kommando aus, um eine Tabelle „Verkauf“ mit folgenden Feldern neu zu erzeugen?",
+            "antwort": "CREATE TABLE Verkauf (\\n    Bestell_ID INT PRIMARY KEY AUTO_INCREMENT,\\n    Produktname VARCHAR(100),\\n    Anzahl INT,\\n    Preis DECIMAL(4, 2)\\n);"
+        },
+        {
+            "frage": "Welche Aufgaben hat ein DHCP-Server innerhalb der IT-Infrastruktur?",
+            "antwort": "Automatische Zuweisung von IP-Adressen und Netzwerkkonfigurationen an Geräte."
+        },
+        {
+            "frage": "Was bedeutet der Begriff MIMO im Bereich der Nachrichtentechnik?",
+            "antwort": "Nutzung mehrerer Sende- und Empfangsantennen zur Erhöhung der Datenübertragungsrate."
+        },
+        {
+            "frage": "Bitte vergleiche die Protokolle UDP und TCP miteinander.",
+            "antwort": "UDP: Schneller, keine Fehlerkorrektur, unzuverlässig. \\n TCP: Zuverlässig, Fehlerkorrektur, verbindungsorientiert."
+        },
+        {
+            "frage": "Wie muss die SQL-Abfrage lauten, wenn alle Werte eines Datensatzes mit der Postleitzahl zwischen 10000 und 29999 der Tabelle Personen angezeigt werden sollen?",
+            "antwort": "SELECT * FROM Personen WHERE PLZ BETWEEN 10000 AND 29999;"
+        },
+        {
+            "frage": "Was versteht man bei Aufbauorganisationen unter einer Stabsstelle?",
+            "antwort": "Beratende Funktion ohne Weisungsbefugnis, unterstützt die Leitung."
+        },
+        {
+            "frage": "Du machst einen Kostenvergleich für den Kauf von mehreren Servern und deren Service. Bitte vergleiche das Leasingmodell, die Kaufvariante und das Modell Pay-per-use miteinander.",
+            "antwort": "Leasing: Regelmäßige Zahlungen, kein Eigentum.\\nKauf: Hohe Einmalkosten, Eigentum.\\nPay-per-Use: Zahlung nach Nutzung, flexibel, keine fixen Kosten."
+        },
+        {
+            "frage": "Was versteht man unter Standardsoftware?",
+            "antwort": "Vorproduzierte Software, die für eine breite Nutzergruppe verfügbar ist."
+        },
+        {
+            "frage": "Was ist der PDCA-Zyklus und aus welchen Schritten besteht er?",
+            "antwort": "Plan-Do-Check-Act: Planen, Durchführen, Überprüfen, Anpassen."
+        },
+        {
+            "frage": "Welche Kriterien muss eine sichere Passwortrichtlinie erfüllen?",
+            "antwort": "Mindestlänge, Sonderzeichen, regelmäßiger Wechsel, keine Wiederholungen."
+        },
+        {
+            "frage": "Was versteht man unter dem Begriff der Bedarfsanalyse?",
+            "antwort": "Ermittlung der Anforderungen und Bedürfnisse des Kunden."
+        },
+        {
+            "frage": "Welches sind die Hauptziele der Datensicherheit?",
+            "antwort": "Vertraulichkeit, Integrität, Verfügbarkeit."
+        },
+        {
+            "frage": "Welche Kosten entstehen für ein Rechenzentrum (on-Premises) mit einer Server-Client-Struktur?",
+            "antwort": "Anschaffungs-, Betriebs-, Wartungs- und Energiekosten."
+        },
+        {
+            "frage": "Wie ist eine Stablinienorganisation aufgebaut?",
+            "antwort": "Kombination aus Linien- und Stabsstellen, wobei die Stäbe die Linie beraten."
+        },
+        {
+            "frage": "Welche Bedingungen muss ein ergonomischer PC-Arbeitsplatz erfüllen?",
+            "antwort": "Verstellbare Sitzhöhe, Monitor in Augenhöhe, ergonomische Tastatur und Maus."
+        },
+        {
+            "frage": "Wann spricht man von einem Käufermarkt?",
+            "antwort": "Wenn das Angebot größer als die Nachfrage ist, was den Käufern mehr Macht verleiht."
+        },
+        {
+            "frage": "Aus welchen Bestandteilen besteht eine Handelskalkulation? Wie unterscheidet sie sich von der Zuschlagskalkulation (Vorkalkulation)?",
+            "antwort": "Handelskalkulation: Ermittlung des Verkaufspreises aus Einkaufspreis.\\nZuschlagskalkulation: Aufschlag von Kosten auf den Einkaufspreis."
+        },
+        {
+            "frage": "Welchem Zweck dient das IT-Sicherheitsmanagement?",
+            "antwort": "Schutz von IT-Systemen und Daten vor unbefugtem Zugriff und Schäden."
+        },
+        {
+            "frage": "Was versteht man im Netzwerkbereich unter dem Quality of Service (QoS)?",
+            "antwort": "Priorisierung und Sicherstellung einer bestimmten Übertragungsqualität im Netzwerk."
+        },
+        {
+            "frage": "Welche Kriterien müssen erfüllt sein, um die Warenannahme zu verweigern?",
+            "antwort": "Falschlieferung, Beschädigung der Ware, Abweichung von der Bestellung."
+        },
+        {
+            "frage": "Welche Funktionen übernehmen dedicated und global Hotspare bei Datenspeichersystemen?",
+            "antwort": "Dedicated Hotspare: Ersatzlaufwerk für ein spezifisches RAID-Array.\\nGlobal Hotspare: Ersatzlaufwerk, das für mehrere RAID-Arrays verwendet werden kann."
+        },
+        {
+            "frage": "Welche Eigenschaften haben die folgenden RAID-Level? Bitte vervollständige die Tabelle.",
+            "antwort": "RAID 0: Keine Redundanz, hohe Leistung.\\nRAID 1: Spiegelung, hohe Datensicherheit.\\nRAID 5: Parität, Ausfallsicherheit und effiziente Speichernutzung.\\nRAID 10: Kombination aus RAID 1 und RAID 0, hohe Sicherheit und Leistung."
+        },
+        {
+            "frage": "Welche Aufgaben und Ziele verfolgen die betrieblichen Grundfunktionen?",
+            "antwort": "Beschaffung, Produktion, Vertrieb, Verwaltung und Personalwesen."
+        },
+        {
+            "frage": "Was beschreibt eine EULA (End User License Agreement) während des Installationsprozesses von Software?",
+            "antwort": "Vereinbarung zwischen Softwarehersteller und Nutzer über Nutzungsrechte und -bedingungen."
+        },
+        {
+            "frage": "Was ist IT-Sicherheit?",
+            "antwort": "IT-Sicherheit bezieht sich auf Maßnahmen und Prozesse, die darauf abzielen, IT-Systeme, Netzwerke und Daten vor unberechtigtem Zugriff, Manipulation, Diebstahl oder Zerstörung zu schützen."
+        },
+        {
+            "frage": "Was ist eine Firewall und welche Aufgabe hat sie?",
+            "antwort": "Eine Firewall ist ein Sicherheitssystem, das den Datenverkehr zwischen Netzwerken überwacht und basierend auf definierten Sicherheitsregeln filtert. Sie verhindert den unerlaubten Zugriff auf ein internes Netzwerk und blockiert potenziell schädlichen Datenverkehr."
+        },
+        {
+            "frage": "Was ist ein VPN (Virtual Private Network) und wie funktioniert es?",
+            "antwort": "Ein VPN stellt eine sichere, verschlüsselte Verbindung zwischen einem Gerät und einem Netzwerk über das Internet her. Es ermöglicht den Schutz von Daten vor unbefugtem Zugriff, indem es die Kommunikation verschlüsselt und die IP-Adresse maskiert."
+        },
+        {
+            "frage": "Was ist Malware?",
+            "antwort": "Malware ist ein Überbegriff für bösartige Software, die darauf abzielt, IT-Systeme zu stören, zu schädigen oder unbefugt auf Daten zuzugreifen. Zu den bekanntesten Arten gehören Viren, Trojaner, Würmer, Spyware und Ransomware."
+        },
+        {
+            "frage": "Was ist ein Virus in der IT?",
+            "antwort": "Ein Virus ist eine Art von Malware, die sich in Dateien oder Programme einschleust und sich durch deren Ausführung verbreitet. Ein Virus kann schädliche Aktionen wie das Löschen oder Verändern von Dateien ausführen."
+        },
+        {
+            "frage": "Was ist ein Trojaner?",
+            "antwort": "Ein Trojaner ist eine Art von Malware, die sich als nützliches oder legitimes Programm tarnt, um unbemerkt in ein System einzudringen und dann schädliche Aktionen auszuführen, wie das Stehlen von Daten oder das Installieren weiterer Schadsoftware."
+        },
+        {
+            "frage": "Was ist ein Wurm in der IT-Sicherheit?",
+            "antwort": "Ein Wurm ist eine Art von Malware, die sich selbstständig über Netzwerke verbreitet, ohne dass sie an ein bestimmtes Programm angehängt werden muss. Würmer können massive Netzwerküberlastungen und Datenverluste verursachen."
+        },
+        {
+            "frage": "Was ist Spyware?",
+            "antwort": "Spyware ist eine Art von Malware, die darauf abzielt, Benutzeraktivitäten unbemerkt auszuspionieren. Sie sammelt Informationen wie Passwörter, Surfgewohnheiten und andere sensible Daten und sendet sie an Dritte."
+        },
+        {
+            "frage": "Was ist Ransomware und wie funktioniert sie?",
+            "antwort": "Ransomware ist eine Art von Malware, die Daten oder Systeme verschlüsselt und vom Opfer ein Lösegeld fordert, um die Daten wieder freizugeben. Die Dateien bleiben gesperrt, bis das Lösegeld gezahlt wird oder eine Lösung zur Entschlüsselung gefunden wird."
+        },
+        {
+            "frage": "Was bedeutet Phishing?",
+            "antwort": "Phishing ist eine Technik, bei der Angreifer versuchen, durch gefälschte E-Mails oder Webseiten sensible Informationen wie Passwörter oder Kreditkartendaten zu stehlen, indem sie sich als vertrauenswürdige Quellen ausgeben."
+        },
+        {
+            "frage": "Was ist Verschlüsselung und warum ist sie wichtig?",
+            "antwort": "Verschlüsselung ist der Prozess der Umwandlung von Daten in einen nicht lesbaren Code, um sie vor unbefugtem Zugriff zu schützen. Sie ist wichtig, um sicherzustellen, dass nur autorisierte Personen auf vertrauliche Informationen zugreifen können."
+        },
+        {
+            "frage": "Was ist ein Botnetz und wie wird es verwendet?",
+            "antwort": "Ein Botnetz ist eine Gruppe von Computern, die von Malware infiziert wurden und ferngesteuert werden, oft ohne das Wissen der Besitzer. Botnetze werden häufig für großangelegte Angriffe, wie DDoS-Attacken, verwendet."
+        },
+        {
+            "frage": "Was ist eine DDoS-Attacke und wie funktioniert sie?",
+            "antwort": "Eine DDoS-Attacke (Distributed Denial of Service) ist ein Angriff, bei dem mehrere Systeme gleichzeitig einen Server oder ein Netzwerk mit Anfragen überfluten, um es lahmzulegen. Dies führt zu einer Überlastung des Ziels, sodass legitime Anfragen nicht mehr bearbeitet werden können."
+        },
+        {
+            "frage": "Was bedeutet das Prinzip der Minimalprivilegien in der IT-Sicherheit?",
+            "antwort": "Das Prinzip der Minimalprivilegien besagt, dass Benutzer und Programme nur die minimalen Rechte und Zugriffsberechtigungen erhalten sollen, die sie benötigen, um ihre Aufgaben zu erfüllen. Dadurch wird das Risiko unbefugten Zugriffs verringert."
+        },
+        {
+            "frage": "Was ist die Zwei-Faktor-Authentifizierung (2FA)?",
+            "antwort": "Die Zwei-Faktor-Authentifizierung (2FA) ist ein Sicherheitssystem, bei dem zwei unabhängige Faktoren zur Verifizierung der Identität eines Benutzers verwendet werden. Dies erhöht die Sicherheit, da ein Angreifer nicht nur das Passwort, sondern auch den zweiten Faktor (z.B. einen Code auf dem Smartphone) kennen muss."
+        },
+        {
+            "frage": "Was ist die Datenschutz-Grundverordnung (DSGVO) und wofür steht sie?",
+            "antwort": "Die Datenschutz-Grundverordnung (DSGVO) ist eine Verordnung der Europäischen Union, die den Schutz personenbezogener Daten regelt. Sie legt fest, wie Unternehmen und Organisationen Daten erheben, verarbeiten und speichern dürfen und welche Rechte Einzelpersonen in Bezug auf ihre Daten haben."
+        },
+        {
+            "frage": "Was ist ein Datenschutzbeauftragter und welche Aufgaben hat er?",
+            "antwort": "Ein Datenschutzbeauftragter überwacht die Einhaltung von Datenschutzvorschriften in einem Unternehmen oder einer Organisation. Er ist dafür verantwortlich, sicherzustellen, dass die Verarbeitung personenbezogener Daten gemäß den gesetzlichen Anforderungen erfolgt und dass Betroffene über ihre Rechte informiert werden."
+        },
+        {
+            "frage": "Was sind personenbezogene Daten gemäß der DSGVO?",
+            "antwort": "Personenbezogene Daten sind alle Informationen, die sich auf eine identifizierte oder identifizierbare Person beziehen. Dazu gehören Name, Adresse, Geburtsdatum, E-Mail-Adresse, IP-Adressen und vieles mehr."
+        },
+        {
+            "frage": "Was ist das Recht auf Vergessenwerden gemäß der DSGVO?",
+            "antwort": "Das Recht auf Vergessenwerden gibt betroffenen Personen das Recht, von einem Unternehmen oder einer Organisation die Löschung ihrer personenbezogenen Daten zu verlangen, wenn diese nicht mehr benötigt werden oder unrechtmäßig verarbeitet wurden."
+        },
+        {
+            "frage": "Was bedeutet Datensicherheit und wie unterscheidet sie sich von Datenschutz?",
+            "antwort": "Datensicherheit bezieht sich auf den Schutz von Daten vor unbefugtem Zugriff, Verlust oder Manipulation, während Datenschutz den Schutz personenbezogener Daten vor Missbrauch regelt und sicherstellt, dass Daten nur rechtmäßig verarbeitet werden."
+        },
+        {
+          "frage": "Was sind die vier klassischen Marktformen?",
+          "antwort": "Die vier klassischen Marktformen sind:\\n1. Polypol: Viele Anbieter, viele Nachfrager.\\n2. Oligopol: Wenige Anbieter, viele Nachfrager.\\n3. Monopol: Ein Anbieter, viele Nachfrager.\\n4. Bilaterales Monopol: Ein Anbieter, ein Nachfrager."
+        },
+        {
+          "frage": "Was ist ein Polypol und was sind seine Merkmale?",
+          "antwort": "Ein Polypol ist eine Marktform, bei der es viele Anbieter und viele Nachfrager gibt. Merkmale sind ein hoher Wettbewerb und ein hoher Grad an Preiskonkurrenz, da viele Anbieter um die gleichen Kunden konkurrieren."
+        },
+        {
+          "frage": "Was ist ein Oligopol und welche Arten von Oligopolen gibt es?",
+          "antwort": "Ein Oligopol ist eine Marktform, bei der es nur wenige Anbieter, aber viele Nachfrager gibt. Es gibt zwei Arten von Oligopolen: Angebotsoligopol (wenige Anbieter, viele Nachfrager) und Nachfrageoligopol (wenige Nachfrager, viele Anbieter)."
+        },
+        {
+          "frage": "Was ist ein Monopol und welche Nachteile kann es haben?",
+          "antwort": "Ein Monopol ist eine Marktform, bei der es nur einen Anbieter gibt, der auf viele Nachfrager trifft. Nachteile eines Monopols können höhere Preise, schlechtere Produktqualität und mangelnde Innovationsanreize sein, da es keinen Wettbewerb gibt."
+        },
+        {
+          "frage": "Was ist ein Dienstvertrag?",
+          "antwort": "Ein Dienstvertrag ist ein Vertrag, bei dem sich eine Partei (der Dienstleister) zur Erbringung einer Dienstleistung verpflichtet. Es wird der Dienst als solcher geschuldet, nicht ein bestimmtes Ergebnis. Beispiel: Arbeitsverträge, Beratungsverträge."
+        },
+        {
+          "frage": "Was ist ein Werkvertrag?",
+          "antwort": "Ein Werkvertrag ist ein Vertrag, bei dem sich eine Partei zur Herstellung eines bestimmten Werkes verpflichtet. Hierbei ist das Ergebnis der Arbeit geschuldet. Beispiel: Bauverträge, Reparaturverträge."
+        },
+        {
+          "frage": "Was ist der Hauptunterschied zwischen einem Dienstvertrag und einem Werkvertrag?",
+          "antwort": "Bei einem Dienstvertrag wird die Erbringung einer Leistung geschuldet (z.B. Arbeitskraft), während bei einem Werkvertrag das Herstellen eines bestimmten Ergebnisses (z.B. ein Bauwerk) geschuldet wird."
+        },
+        {
+          "frage": "Was ist ein Kaufvertrag und wie unterscheidet er sich von einem Werkvertrag?",
+          "antwort": "Ein Kaufvertrag verpflichtet den Verkäufer zur Übereignung einer Sache und den Käufer zur Zahlung des Kaufpreises. Im Gegensatz dazu schuldet ein Werkvertrag das Herstellen oder Erstellen eines Werkes, also eines konkreten Ergebnisses."
+        },
+        {
+          "frage": "Was ist ein Mietvertrag und wie unterscheidet er sich von einem Kaufvertrag?",
+          "antwort": "Ein Mietvertrag regelt die Überlassung einer Sache auf Zeit gegen Entgelt, wobei das Eigentum bei dem Vermieter verbleibt. Bei einem Kaufvertrag wird das Eigentum an einer Sache gegen Bezahlung übertragen."
+        },
+        {
+          "frage": "Was ist der Unterschied zwischen einem Angebotsoligopol und einem Nachfrageoligopol?",
+          "antwort": "Ein Angebotsoligopol liegt vor, wenn es wenige Anbieter, aber viele Nachfrager gibt. Ein Nachfrageoligopol liegt vor, wenn es wenige Nachfrager, aber viele Anbieter gibt."
+        },
+        {
+          "frage": "Was ist der Unterschied zwischen einem Arbeitsvertrag und einem Dienstvertrag?",
+          "antwort": "Ein Arbeitsvertrag ist eine spezielle Form des Dienstvertrags, bei dem sich der Arbeitnehmer verpflichtet, seine Arbeitskraft zur Verfügung zu stellen und der Arbeitgeber dafür entlohnt. Ein Dienstvertrag kann aber auch selbstständige Leistungen umfassen, bei denen keine Abhängigkeit zum Auftraggeber besteht."
+        },
+        {
+          "frage": "Was ist ein Leasingvertrag und wie unterscheidet er sich von einem Mietvertrag?",
+          "antwort": "Ein Leasingvertrag ist ähnlich wie ein Mietvertrag, jedoch beinhaltet Leasing oft die Option, das geleaste Gut nach Ablauf des Vertrags zu kaufen. Zudem übernimmt der Leasingnehmer meist Wartung und Versicherung, während diese beim Mietvertrag typischerweise der Vermieter übernimmt."
+        },
+        {
+          "frage": "Was ist der Unterschied zwischen einem Monopol und einem Polypol?",
+          "antwort": "Ein Monopol beschreibt eine Marktform mit nur einem Anbieter und vielen Nachfragern. Ein Polypol beschreibt eine Marktform mit vielen Anbietern und vielen Nachfragern, was zu höherem Wettbewerb und besseren Preisen für Konsumenten führt."
+        },
+        {
+          "frage": "Was ist das bilaterale Monopol?",
+          "antwort": "Ein bilaterales Monopol beschreibt eine Marktform, bei der es nur einen Anbieter und nur einen Nachfrager gibt. Solche Situationen kommen häufig im militärischen oder staatlichen Bereich vor."
+        },
+        {
+          "frage": "Was sind die vier klassischen Marktformen?",
+          "antwort": "Die vier klassischen Marktformen sind:\\n1. Polypol: Viele Anbieter, viele Nachfrager.\\n2. Oligopol: Wenige Anbieter, viele Nachfrager.\\n3. Monopol: Ein Anbieter, viele Nachfrager.\\n4. Bilaterales Monopol: Ein Anbieter, ein Nachfrager."
+        },
+        {
+          "frage": "Was ist ein Polypol und was sind seine Merkmale?",
+          "antwort": "Ein Polypol ist eine Marktform, bei der es viele Anbieter und viele Nachfrager gibt. Merkmale sind ein hoher Wettbewerb und ein hoher Grad an Preiskonkurrenz, da viele Anbieter um die gleichen Kunden konkurrieren."
+        },
+        {
+          "frage": "Was ist ein Oligopol und welche Arten von Oligopolen gibt es?",
+          "antwort": "Ein Oligopol ist eine Marktform, bei der es nur wenige Anbieter, aber viele Nachfrager gibt. Es gibt zwei Arten von Oligopolen: Angebotsoligopol (wenige Anbieter, viele Nachfrager) und Nachfrageoligopol (wenige Nachfrager, viele Anbieter)."
+        },
+        {
+          "frage": "Was ist ein Monopol und welche Nachteile kann es haben?",
+          "antwort": "Ein Monopol ist eine Marktform, bei der es nur einen Anbieter gibt, der auf viele Nachfrager trifft. Nachteile eines Monopols können höhere Preise, schlechtere Produktqualität und mangelnde Innovationsanreize sein, da es keinen Wettbewerb gibt."
+        },
+        {
+          "frage": "Was ist ein Dienstvertrag?",
+          "antwort": "Ein Dienstvertrag ist ein Vertrag, bei dem sich eine Partei (der Dienstleister) zur Erbringung einer Dienstleistung verpflichtet. Es wird der Dienst als solcher geschuldet, nicht ein bestimmtes Ergebnis. Beispiel: Arbeitsverträge, Beratungsverträge."
+        },
+        {
+          "frage": "Was ist ein Werkvertrag?",
+          "antwort": "Ein Werkvertrag ist ein Vertrag, bei dem sich eine Partei zur Herstellung eines bestimmten Werkes verpflichtet. Hierbei ist das Ergebnis der Arbeit geschuldet. Beispiel: Bauverträge, Reparaturverträge."
+        },
+        {
+          "frage": "Was ist der Hauptunterschied zwischen einem Dienstvertrag und einem Werkvertrag?",
+          "antwort": "Bei einem Dienstvertrag wird die Erbringung einer Leistung geschuldet (z.B. Arbeitskraft), während bei einem Werkvertrag das Herstellen eines bestimmten Ergebnisses (z.B. ein Bauwerk) geschuldet wird."
+        },
+        {
+          "frage": "Was ist ein Kaufvertrag und wie unterscheidet er sich von einem Werkvertrag?",
+          "antwort": "Ein Kaufvertrag verpflichtet den Verkäufer zur Übereignung einer Sache und den Käufer zur Zahlung des Kaufpreises. Im Gegensatz dazu schuldet ein Werkvertrag das Herstellen oder Erstellen eines Werkes, also eines konkreten Ergebnisses."
+        },
+        {
+          "frage": "Was ist ein Mietvertrag und wie unterscheidet er sich von einem Kaufvertrag?",
+          "antwort": "Ein Mietvertrag regelt die Überlassung einer Sache auf Zeit gegen Entgelt, wobei das Eigentum bei dem Vermieter verbleibt. Bei einem Kaufvertrag wird das Eigentum an einer Sache gegen Bezahlung übertragen."
+        },
+        {
+          "frage": "Was ist der Unterschied zwischen einem Angebotsoligopol und einem Nachfrageoligopol?",
+          "antwort": "Ein Angebotsoligopol liegt vor, wenn es wenige Anbieter, aber viele Nachfrager gibt. Ein Nachfrageoligopol liegt vor, wenn es wenige Nachfrager, aber viele Anbieter gibt."
+        },
+        {
+          "frage": "Was ist der Unterschied zwischen einem Arbeitsvertrag und einem Dienstvertrag?",
+          "antwort": "Ein Arbeitsvertrag ist eine spezielle Form des Dienstvertrags, bei dem sich der Arbeitnehmer verpflichtet, seine Arbeitskraft zur Verfügung zu stellen und der Arbeitgeber dafür entlohnt. Ein Dienstvertrag kann aber auch selbstständige Leistungen umfassen, bei denen keine Abhängigkeit zum Auftraggeber besteht."
+        },
+        {
+          "frage": "Was ist ein Leasingvertrag und wie unterscheidet er sich von einem Mietvertrag?",
+          "antwort": "Ein Leasingvertrag ist ähnlich wie ein Mietvertrag, jedoch beinhaltet Leasing oft die Option, das geleaste Gut nach Ablauf des Vertrags zu kaufen. Zudem übernimmt der Leasingnehmer meist Wartung und Versicherung, während diese beim Mietvertrag typischerweise der Vermieter übernimmt."
+        },
+        {
+          "frage": "Was ist der Unterschied zwischen einem Monopol und einem Polypol?",
+          "antwort": "Ein Monopol beschreibt eine Marktform mit nur einem Anbieter und vielen Nachfragern. Ein Polypol beschreibt eine Marktform mit vielen Anbietern und vielen Nachfragern, was zu höherem Wettbewerb und besseren Preisen für Konsumenten führt."
+        },
+        {
+          "frage": "Was ist das bilaterale Monopol?",
+          "antwort": "Ein bilaterales Monopol beschreibt eine Marktform, bei der es nur einen Anbieter und nur einen Nachfrager gibt. Solche Situationen kommen häufig im militärischen oder staatlichen Bereich vor."
+        },
+        {
+          "frage": "Was sind die vier klassischen Marktformen?",
+          "antwort": "Die vier klassischen Marktformen sind:\\n1. Polypol: Viele Anbieter, viele Nachfrager.\\n2. Oligopol: Wenige Anbieter, viele Nachfrager.\\n3. Monopol: Ein Anbieter, viele Nachfrager.\\n4. Bilaterales Monopol: Ein Anbieter, ein Nachfrager."
+        },
+        {
+          "frage": "Was ist ein Polypol und was sind seine Merkmale?",
+          "antwort": "Ein Polypol ist eine Marktform, bei der es viele Anbieter und viele Nachfrager gibt. Merkmale sind ein hoher Wettbewerb und ein hoher Grad an Preiskonkurrenz, da viele Anbieter um die gleichen Kunden konkurrieren."
+        },
+        {
+          "frage": "Was ist ein Oligopol und welche Arten von Oligopolen gibt es?",
+          "antwort": "Ein Oligopol ist eine Marktform, bei der es nur wenige Anbieter, aber viele Nachfrager gibt. Es gibt zwei Arten von Oligopolen: Angebotsoligopol (wenige Anbieter, viele Nachfrager) und Nachfrageoligopol (wenige Nachfrager, viele Anbieter)."
+        },
+        {
+          "frage": "Was ist ein Monopol und welche Nachteile kann es haben?",
+          "antwort": "Ein Monopol ist eine Marktform, bei der es nur einen Anbieter gibt, der auf viele Nachfrager trifft. Nachteile eines Monopols können höhere Preise, schlechtere Produktqualität und mangelnde Innovationsanreize sein, da es keinen Wettbewerb gibt."
+        },
+        {
+          "frage": "Was ist ein Dienstvertrag?",
+          "antwort": "Ein Dienstvertrag ist ein Vertrag, bei dem sich eine Partei (der Dienstleister) zur Erbringung einer Dienstleistung verpflichtet. Es wird der Dienst als solcher geschuldet, nicht ein bestimmtes Ergebnis. Beispiel: Arbeitsverträge, Beratungsverträge."
+        },
+        {
+          "frage": "Was ist ein Werkvertrag?",
+          "antwort": "Ein Werkvertrag ist ein Vertrag, bei dem sich eine Partei zur Herstellung eines bestimmten Werkes verpflichtet. Hierbei ist das Ergebnis der Arbeit geschuldet. Beispiel: Bauverträge, Reparaturverträge."
+        },
+        {
+          "frage": "Was ist der Hauptunterschied zwischen einem Dienstvertrag und einem Werkvertrag?",
+          "antwort": "Bei einem Dienstvertrag wird die Erbringung einer Leistung geschuldet (z.B. Arbeitskraft), während bei einem Werkvertrag das Herstellen eines bestimmten Ergebnisses (z.B. ein Bauwerk) geschuldet wird."
+        },
+        {
+          "frage": "Was ist ein Kaufvertrag und wie unterscheidet er sich von einem Werkvertrag?",
+          "antwort": "Ein Kaufvertrag verpflichtet den Verkäufer zur Übereignung einer Sache und den Käufer zur Zahlung des Kaufpreises. Im Gegensatz dazu schuldet ein Werkvertrag das Herstellen oder Erstellen eines Werkes, also eines konkreten Ergebnisses."
+        },
+        {
+          "frage": "Was ist ein Mietvertrag und wie unterscheidet er sich von einem Kaufvertrag?",
+          "antwort": "Ein Mietvertrag regelt die Überlassung einer Sache auf Zeit gegen Entgelt, wobei das Eigentum bei dem Vermieter verbleibt. Bei einem Kaufvertrag wird das Eigentum an einer Sache gegen Bezahlung übertragen."
+        },
+        {
+          "frage": "Was ist der Unterschied zwischen einem Angebotsoligopol und einem Nachfrageoligopol?",
+          "antwort": "Ein Angebotsoligopol liegt vor, wenn es wenige Anbieter, aber viele Nachfrager gibt. Ein Nachfrageoligopol liegt vor, wenn es wenige Nachfrager, aber viele Anbieter gibt."
+        },
+        {
+          "frage": "Was ist der Unterschied zwischen einem Arbeitsvertrag und einem Dienstvertrag?",
+          "antwort": "Ein Arbeitsvertrag ist eine spezielle Form des Dienstvertrags, bei dem sich der Arbeitnehmer verpflichtet, seine Arbeitskraft zur Verfügung zu stellen und der Arbeitgeber dafür entlohnt. Ein Dienstvertrag kann aber auch selbstständige Leistungen umfassen, bei denen keine Abhängigkeit zum Auftraggeber besteht."
+        },
+        {
+          "frage": "Was ist ein Leasingvertrag und wie unterscheidet er sich von einem Mietvertrag?",
+          "antwort": "Ein Leasingvertrag ist ähnlich wie ein Mietvertrag, jedoch beinhaltet Leasing oft die Option, das geleaste Gut nach Ablauf des Vertrags zu kaufen. Zudem übernimmt der Leasingnehmer meist Wartung und Versicherung, während diese beim Mietvertrag typischerweise der Vermieter übernimmt."
+        },
+        {
+          "frage": "Was ist der Unterschied zwischen einem Monopol und einem Polypol?",
+          "antwort": "Ein Monopol beschreibt eine Marktform mit nur einem Anbieter und vielen Nachfragern. Ein Polypol beschreibt eine Marktform mit vielen Anbietern und vielen Nachfragern, was zu höherem Wettbewerb und besseren Preisen für Konsumenten führt."
+        },
+        {
+          "frage": "Was ist das bilaterale Monopol?",
+          "antwort": "Ein bilaterales Monopol beschreibt eine Marktform, bei der es nur einen Anbieter und nur einen Nachfrager gibt. Solche Situationen kommen häufig im militärischen oder staatlichen Bereich vor."
+        },
+        {
+          "frage": "Was ist SQL und wofür wird es verwendet?",
+          "antwort": "SQL (Structured Query Language) ist eine Programmiersprache zur Verwaltung und Abfrage von Daten in relationalen Datenbanksystemen. Mit SQL können Daten eingefügt, geändert, abgefragt und gelöscht werden."
+        },
+        {
+          "frage": "Was ist eine SQL SELECT-Anweisung und wie funktioniert sie?",
+          "antwort": "Die SELECT-Anweisung wird verwendet, um Daten aus einer Datenbank abzufragen. Beispiel: SELECT * FROM Tabelle; – Dies holt alle Daten aus der angegebenen Tabelle."
+        },
+        {
+          "frage": "Wie lautet die SQL-Anweisung, um Daten in eine Tabelle einzufügen?",
+          "antwort": "Die INSERT-Anweisung fügt Daten in eine Tabelle ein. Beispiel: INSERT INTO Tabelle (Spalte1, Spalte2) VALUES (Wert1, Wert2);"
+        },
+        {
+          "frage": "Wie ändert man vorhandene Daten in einer SQL-Tabelle?",
+          "antwort": "Mit der UPDATE-Anweisung werden vorhandene Daten geändert. Beispiel: UPDATE Tabelle SET Spalte1 = NeuerWert WHERE Bedingung;"
+        },
+        {
+          "frage": "Wie löscht man Daten aus einer SQL-Tabelle?",
+          "antwort": "Mit der DELETE-Anweisung werden Daten gelöscht. Beispiel: DELETE FROM Tabelle WHERE Bedingung;"
+        },
+        {
+          "frage": "Was ist eine WHERE-Klausel in SQL und wofür wird sie verwendet?",
+          "antwort": "Die WHERE-Klausel wird verwendet, um Bedingungen für SQL-Abfragen festzulegen. Beispiel: SELECT * FROM Tabelle WHERE Spalte = Wert;"
+        },
+        {
+          "frage": "Was ist ein SQL JOIN und wofür wird er verwendet?",
+          "antwort": "JOIN wird verwendet, um Daten aus mehreren Tabellen basierend auf einer gemeinsamen Spalte zu verknüpfen. Beispiel: INNER JOIN, LEFT JOIN, RIGHT JOIN. Beispiel: SELECT * FROM Tabelle1 INNER JOIN Tabelle2 ON Tabelle1.ID = Tabelle2.ID;"
+        },
+        {
+          "frage": "Was ist der Unterschied zwischen einem INNER JOIN und einem LEFT JOIN?",
+          "antwort": "Ein INNER JOIN gibt nur die Datensätze zurück, die in beiden Tabellen übereinstimmende Werte haben. Ein LEFT JOIN gibt alle Datensätze der linken Tabelle zurück und ergänzt sie um passende Werte aus der rechten Tabelle, auch wenn es keine Übereinstimmungen gibt."
+        },
+        {
+          "frage": "Wie funktioniert die GROUP BY-Klausel in SQL?",
+          "antwort": "GROUP BY wird verwendet, um Zeilen mit gleichen Werten in bestimmten Spalten zu gruppieren. Diese Klausel wird häufig mit Aggregatfunktionen wie COUNT, SUM, AVG verwendet. Beispiel: SELECT COUNT(*), Spalte FROM Tabelle GROUP BY Spalte;"
+        },
+        {
+          "frage": "Was ist die HAVING-Klausel in SQL und wie unterscheidet sie sich von WHERE?",
+          "antwort": "Die HAVING-Klausel wird verwendet, um Bedingungen auf Gruppenergebnisse anzuwenden, während WHERE Bedingungen auf einzelne Zeilen anwendet. HAVING wird häufig nach GROUP BY verwendet. Beispiel: SELECT COUNT(*), Spalte FROM Tabelle GROUP BY Spalte HAVING COUNT(*) > 5;"
+        },
+        {
+          "frage": "Was ist eine Primärschlüssel (Primary Key) in einer Datenbank?",
+          "antwort": "Ein Primärschlüssel ist eine eindeutige Kennung für jeden Datensatz in einer Tabelle. Er darf keine doppelten oder NULL-Werte enthalten."
+        },
+        {
+          "frage": "Was ist ein Fremdschlüssel (Foreign Key) in einer Datenbank?",
+          "antwort": "Ein Fremdschlüssel ist eine Spalte in einer Tabelle, die auf den Primärschlüssel einer anderen Tabelle verweist. Fremdschlüssel definieren die Beziehungen zwischen Tabellen."
+        },
+        {
+          "frage": "Was ist der Unterschied zwischen einem Primärschlüssel und einem Fremdschlüssel?",
+          "antwort": "Ein Primärschlüssel identifiziert eindeutig jeden Datensatz in einer Tabelle. Ein Fremdschlüssel stellt eine Beziehung zwischen zwei Tabellen her, indem er auf den Primärschlüssel der anderen Tabelle verweist."
+        },
+        {
+          "frage": "Was ist Normalisierung in einer Datenbank?",
+          "antwort": "Normalisierung ist der Prozess, durch den eine Datenbank strukturiert wird, um Redundanz zu minimieren und Datenkonsistenz zu gewährleisten. Normalisierung besteht aus mehreren Normalformen (1NF, 2NF, 3NF)."
+        },
+        {
+          "frage": "Was ist die 1. Normalform (1NF) in der Datenbanknormalisierung?",
+          "antwort": "Eine Tabelle befindet sich in der 1. Normalform, wenn alle Attribute atomar sind, d.h., jedes Feld enthält nur einen Wert, und die Reihenfolge der Zeilen und Spalten ist unerheblich."
+        },
+        {
+          "frage": "Was ist die 2. Normalform (2NF) in der Datenbanknormalisierung?",
+          "antwort": "Eine Tabelle befindet sich in der 2. Normalform, wenn sie in der 1. Normalform ist und alle Nichtschlüsselattribute vollständig vom Primärschlüssel abhängen."
+        },
+        {
+          "frage": "Was ist die 3. Normalform (3NF) in der Datenbanknormalisierung?",
+          "antwort": "Eine Tabelle befindet sich in der 3. Normalform, wenn sie in der 2. Normalform ist und kein Nichtschlüsselattribut transitiv vom Primärschlüssel abhängt."
+        },
+        {
+          "frage": "Was ist ein Index in einer Datenbank und warum wird er verwendet?",
+          "antwort": "Ein Index verbessert die Geschwindigkeit von Datenbankabfragen, indem er einen schnellen Zugriff auf Datensätze ermöglicht, ähnlich wie ein Inhaltsverzeichnis in einem Buch. Ein Index wird normalerweise auf häufig abgefragte Spalten angewendet."
+        },
+        {
+          "frage": "Was ist eine Transaktion in einer Datenbank?",
+          "antwort": "Eine Transaktion ist eine Folge von Datenbankoperationen, die als eine einzige Einheit betrachtet werden. Eine Transaktion muss entweder vollständig ausgeführt oder vollständig rückgängig gemacht werden, um die Konsistenz der Daten zu gewährleisten."
+        },
+        {
+          "frage": "Was bedeutet ACID in Bezug auf Datenbanktransaktionen?",
+          "antwort": "ACID steht für Atomicity, Consistency, Isolation, Durability. Diese Eigenschaften garantieren die Zuverlässigkeit und Konsistenz von Datenbanktransaktionen: Atomarität (entweder alles oder nichts), Konsistenz (Daten bleiben konsistent), Isolation (Transaktionen beeinflussen sich nicht), Dauerhaftigkeit (Daten bleiben nach der Transaktion gespeichert)."
+        },
+        {
+          "frage": "Was ist eine Variable in der Programmierung?",
+          "antwort": "Eine Variable ist ein benannter Speicherplatz im Speicher, der einen bestimmten Wert hält, der sich im Verlauf des Programms ändern kann. Variablen haben oft einen Datentyp wie int, float oder string."
+        },
+        {
+          "frage": "Was ist der Unterschied zwischen einer Schleife und einer Bedingung in der Programmierung?",
+          "antwort": "Eine Schleife (z.B. for, while) führt einen Codeblock wiederholt aus, solange eine Bedingung erfüllt ist. Eine Bedingung (z.B. if-else) führt einen Codeblock nur aus, wenn eine bestimmte Bedingung wahr ist."
+        },
+        {
+          "frage": "Was ist eine for-Schleife und wie funktioniert sie?",
+          "antwort": "Eine for-Schleife wiederholt einen Codeblock für eine festgelegte Anzahl von Iterationen. Sie wird häufig verwendet, wenn die Anzahl der Wiederholungen im Voraus bekannt ist. Beispiel: for (int i = 0; i < 10; i++) { // Code }"
+        },
+        {
+          "frage": "Was ist eine while-Schleife und wie funktioniert sie?",
+          "antwort": "Eine while-Schleife führt einen Codeblock so lange aus, wie eine angegebene Bedingung wahr ist. Sie eignet sich, wenn die Anzahl der Iterationen nicht im Voraus bekannt ist. Beispiel: while (i < 10) { // Code }"
+        },
+        {
+          "frage": "Was ist eine Rekursion und wann wird sie verwendet?",
+          "antwort": "Rekursion ist eine Programmiertechnik, bei der eine Funktion sich selbst aufruft, um ein Problem zu lösen. Sie wird oft bei Problemen verwendet, die sich in kleinere Teilprobleme unterteilen lassen, wie bei der Arbeit mit Bäumen oder der Berechnung der Fakultät."
+        },
+        {
+          "frage": "Was ist der Unterschied zwischen Rekursion und Iteration?",
+          "antwort": "Rekursion verwendet einen selbstaufrufenden Ansatz, um Probleme zu lösen, während Iteration auf Schleifen basiert, um eine Aufgabe wiederholt auszuführen. Rekursion ist oft intuitiver, während Iteration speichereffizienter ist."
+        },
+        {
+          "frage": "Was ist ein Algorithmus?",
+          "antwort": "Ein Algorithmus ist eine endliche Folge von Anweisungen zur Lösung eines Problems oder zur Durchführung einer Aufgabe. Algorithmen können in einer Programmiersprache implementiert werden."
+        },
+        {
+          "frage": "Was ist der Unterschied zwischen einem Array und einer Liste?",
+          "antwort": "Ein Array ist eine feste Sammlung von gleichartigen Elementen, die in aufeinanderfolgenden Speicherzellen gespeichert sind. Eine Liste ist eine dynamische Datenstruktur, die unterschiedlich große Elemente speichern kann und oft verkettete Strukturen verwendet."
+        },
+        {
+          "frage": "Beschreibe die Funktionsweise des Bubble-Sort-Algorithmus.",
+          "antwort": "Bubble Sort vergleicht benachbarte Elemente einer Liste und tauscht sie, wenn sie in der falschen Reihenfolge sind. Dies wird wiederholt, bis die Liste vollständig sortiert ist. Es ist ein einfacher, aber ineffizienter Sortieralgorithmus."
+        },
+        {
+          "frage": "Wie funktioniert der Quick-Sort-Algorithmus?",
+          "antwort": "Quick-Sort wählt ein Pivotelement aus und teilt die Liste in zwei Teile: Elemente kleiner als das Pivot und Elemente größer als das Pivot. Diese Teilmengen werden dann rekursiv sortiert. Quick-Sort ist ein effizienter, aber komplexer Sortieralgorithmus."
+        },
+        {
+          "frage": "Was ist eine lineare Suche und wann wird sie verwendet?",
+          "antwort": "Die lineare Suche durchsucht eine Liste oder ein Array Element für Element von Anfang bis Ende, bis das Ziel gefunden wird. Sie wird verwendet, wenn die Daten nicht sortiert sind."
+        },
+        {
+          "frage": "Was ist eine binäre Suche und wie funktioniert sie?",
+          "antwort": "Die binäre Suche teilt eine sortierte Liste in zwei Hälften und vergleicht das mittlere Element mit dem Zielwert. Wenn der Zielwert kleiner ist, wird die linke Hälfte durchsucht, andernfalls die rechte. Dieser Vorgang wird rekursiv wiederholt, bis der Wert gefunden wird."
+        },
+        {
+          "frage": "Was ist ein Struktogramm?",
+          "antwort": "Ein Struktogramm ist eine grafische Darstellung von Programmabläufen und Algorithmen. Es hilft dabei, die logische Struktur eines Programms zu visualisieren und zu planen."
+        },
+        {
+          "frage": "Was ist der Unterschied zwischen einer Funktion und einer Prozedur?",
+          "antwort": "Eine Funktion ist ein wiederverwendbarer Codeblock, der einen Wert zurückgibt, während eine Prozedur (oder Methode) eine Aktion ausführt, aber keinen Wert zurückgibt."
+        },
+        {
+          "frage": "Was ist ein Stack und wie funktioniert er?",
+          "antwort": "Ein Stack ist eine Datenstruktur, die das LIFO-Prinzip (Last In, First Out) verwendet. Das zuletzt eingefügte Element wird zuerst entfernt. Typische Operationen sind 'push' (Element hinzufügen) und 'pop' (Element entfernen)."
+        },
+        {
+          "frage": "Was ist eine Queue und wie funktioniert sie?",
+          "antwort": "Eine Queue ist eine Datenstruktur, die das FIFO-Prinzip (First In, First Out) verwendet. Das zuerst eingefügte Element wird zuerst entfernt. Typische Operationen sind 'enqueue' (Element hinzufügen) und 'dequeue' (Element entfernen)."
+        },
+        {
+          "frage": "Was ist der Unterschied zwischen einer verketteten Liste und einem Array?",
+          "antwort": "Eine verkettete Liste besteht aus Knoten, die auf den nächsten Knoten verweisen, was das Einfügen und Entfernen von Elementen erleichtert. Ein Array speichert Elemente in aufeinanderfolgenden Speicherzellen und hat eine feste Größe, was den Zugriff schneller, aber das Ändern langsamer macht."
+        },
+        {
+          "frage": "Was ist die Big-O-Notation und warum ist sie wichtig?",
+          "antwort": "Die Big-O-Notation beschreibt die Laufzeitkomplexität eines Algorithmus in Bezug auf die Eingabemenge. Sie hilft, die Effizienz von Algorithmen zu bewerten und deren Leistung bei großen Datenmengen abzuschätzen."
+        },
+        {
+          "frage": "Erkläre, wie Merge-Sort funktioniert.",
+          "antwort": "Merge-Sort teilt die Liste rekursiv in kleinere Teillisten, sortiert diese und fügt sie dann wieder zusammen. Merge-Sort hat eine Laufzeitkomplexität von O(n log n) und ist stabil und effizient für große Datenmengen."
+        },
+        {
+          "frage": "Was ist eine doppelt verkettete Liste?",
+          "antwort": "Eine doppelt verkettete Liste ist eine Datenstruktur, bei der jeder Knoten sowohl auf den nächsten als auch auf den vorherigen Knoten verweist. Dies ermöglicht das Navigieren in beide Richtungen."
+        },
+        {
+          "frage": "Nenne die sieben Schichten des OSI-Modells und beschreibe die Hauptaufgabe jeder Schicht.",
+          "antwort": "1. Bitübertragungsschicht (Physical Layer): Übertragung von Bits über physische Medien (z.B. Kabel, Funk).\\n2. Sicherungsschicht (Data Link Layer): Stellt fehlerfreie Übertragung von Datenrahmen sicher und regelt den Zugriff auf das Übertragungsmedium.\\n3. Vermittlungsschicht (Network Layer): Adressierung und Weiterleitung von Paketen zwischen Netzwerken (z.B. IP-Adressen).\\n4. Transportschicht (Transport Layer): Zuverlässige Datenübertragung und Fehlerkorrektur (z.B. TCP, UDP).\\n5. Sitzungsschicht (Session Layer): Aufbau, Steuerung und Beendigung von Sitzungen (z.B. Dialogsteuerung).\\n6. Darstellungsschicht (Presentation Layer): Übersetzt Datenformate zwischen verschiedenen Systemen (z.B. Verschlüsselung, Kompression).\\n7. Anwendungsschicht (Application Layer): Stellt Dienste für Anwendungen zur Verfügung (z.B. HTTP, FTP, DNS)."
+        },
+        {
+          "frage": "Was ist der Unterschied zwischen TCP und UDP?",
+          "antwort": "TCP (Transmission Control Protocol) bietet eine zuverlässige, verbindungsorientierte Datenübertragung mit Fehlerkontrolle und Bestätigungen. UDP (User Datagram Protocol) ist verbindungslos und bietet eine schnellere, aber unzuverlässige Datenübertragung ohne Bestätigungen oder Fehlerkorrekturen."
+        },
+        {
+          "frage": "Welche Aufgabe erfüllt das DNS (Domain Name System) im Netzwerk?",
+          "antwort": "DNS ist ein hierarchisches System, das Domainnamen in IP-Adressen übersetzt, damit Computer in Netzwerken miteinander kommunizieren können, ohne dass sich Benutzer IP-Adressen merken müssen."
+        },
+        {
+          "frage": "Was ist eine MAC-Adresse und wie wird sie verwendet?",
+          "antwort": "Eine MAC-Adresse (Media Access Control) ist eine eindeutige physische Adresse, die einer Netzwerkkarte zugewiesen wird. Sie wird auf der Sicherungsschicht verwendet, um Geräte innerhalb eines lokalen Netzwerks zu identifizieren."
+        },
+        {
+          "frage": "Erkläre den Unterschied zwischen IPv4 und IPv6.",
+          "antwort": "IPv4 verwendet 32-Bit-Adressen, was etwa 4,3 Milliarden eindeutige Adressen ermöglicht. IPv6 verwendet 128-Bit-Adressen, die eine nahezu unbegrenzte Anzahl von Adressen bieten und mehr Kapazität für zukünftige Netzwerke bieten."
+        },
+        {
+          "frage": "Was ist ARP (Address Resolution Protocol) und welche Aufgabe hat es?",
+          "antwort": "ARP (Address Resolution Protocol) wird verwendet, um die MAC-Adresse eines Geräts anhand seiner IP-Adresse zu ermitteln. Dies ist notwendig, um innerhalb eines lokalen Netzwerks die Datenpakete an die richtigen Geräte zu senden."
+        },
+        {
+          "frage": "Beschreibe die Hauptaufgabe der Bitübertragungsschicht (Physical Layer) im OSI-Modell.",
+          "antwort": "Die Bitübertragungsschicht ist für die physische Übertragung von Bits über ein Netzwerkmedium (z.B. Kupferkabel, Glasfaser, Funkwellen) verantwortlich. Sie definiert die mechanischen und elektrischen Eigenschaften der Übertragungsverbindung."
+        },
+        {
+          "frage": "Was ist Subnetting und warum wird es in Netzwerken verwendet?",
+          "antwort": "Subnetting ist der Prozess, bei dem ein großes Netzwerk in kleinere Subnetze aufgeteilt wird. Dies ermöglicht eine effizientere IP-Adressverwaltung und verbesserte Sicherheit sowie Performance in Netzwerken."
+        },
+        {
+          "frage": "Was ist ein VLAN und wie funktioniert es?",
+          "antwort": "Ein VLAN (Virtual Local Area Network) teilt ein physisches Netzwerk in mehrere logische Netzwerke auf. Dies ermöglicht es, Geräte virtuell in separate Netzwerke zu unterteilen, auch wenn sie sich physisch im selben Netzwerk befinden, was die Sicherheit und Netzwerkverwaltung verbessert."
+        },
+        {
+          "frage": "Erkläre den Unterschied zwischen einem Switch und einem Router.",
+          "antwort": "Ein Switch arbeitet auf der Sicherungsschicht (Layer 2) und leitet Daten innerhalb eines lokalen Netzwerks weiter, basierend auf MAC-Adressen. Ein Router arbeitet auf der Vermittlungsschicht (Layer 3) und leitet Daten zwischen verschiedenen Netzwerken weiter, basierend auf IP-Adressen."
+        },
+        {
+          "frage": "Was ist der Zweck von NAT (Network Address Translation)?",
+          "antwort": "NAT (Network Address Translation) ermöglicht es, eine öffentliche IP-Adresse mit mehreren privaten IP-Adressen zu teilen, sodass mehrere Geräte innerhalb eines privaten Netzwerks über eine einzige öffentliche IP-Adresse ins Internet zugreifen können."
+        },
+        {
+          "frage": "Wie funktioniert eine Firewall und welche Aufgabe hat sie im Netzwerk?",
+          "antwort": "Eine Firewall überwacht und kontrolliert den ein- und ausgehenden Netzwerkverkehr basierend auf vordefinierten Sicherheitsregeln. Sie schützt Netzwerke vor unberechtigtem Zugriff, indem sie unerwünschten Datenverkehr blockiert."
+        },
+        {
+          "frage": "Was ist die Aufgabe der Transportschicht im OSI-Modell?",
+          "antwort": "Die Transportschicht (Layer 4) ist für den zuverlässigen und geordneten Datenfluss zwischen Endgeräten verantwortlich. Sie steuert die Segmentierung von Daten, den Verbindungsaufbau und die Fehlerkorrektur (z.B. durch TCP)."
+        },
+        {
+          "frage": "Was ist ein IP-Subnetz und wie wird es gebildet?",
+          "antwort": "Ein Subnetz ist ein Teil eines größeren Netzwerks, das durch Subnetting gebildet wird. Es verwendet eine Subnetzmaske, um den Adressraum eines Netzwerks in kleinere Segmente zu unterteilen, was die Verwaltung und Sicherheit des Netzwerks verbessert."
+        },
+        {
+          "frage": "Wie arbeitet das Address Resolution Protocol (ARP)?",
+          "antwort": "ARP ermittelt die MAC-Adresse eines Geräts, wenn die IP-Adresse bekannt ist. Es sendet eine ARP-Anfrage an das Netzwerk, und das Gerät mit der entsprechenden IP-Adresse antwortet mit seiner MAC-Adresse."
+        },
+        {
+          "frage": "Was ist der Unterschied zwischen einem Broadcast und einem Unicast?",
+          "antwort": "Ein Unicast ist eine Punkt-zu-Punkt-Kommunikation zwischen einem Sender und einem Empfänger. Ein Broadcast sendet Daten an alle Geräte in einem Netzwerksegment, während ein Multicast nur an eine Gruppe von Geräten sendet."
+        },
+        {
+          "frage": "Was ist ein Multicast?",
+          "antwort": "Ein Multicast ist eine Art der Kommunikation, bei der Daten von einem Sender an mehrere spezifizierte Empfänger innerhalb eines Netzwerks gesendet werden. Dabei wird Bandbreite effizienter genutzt als bei einem Broadcast."
+        },
+        {
+          "frage": "Was ist der Unterschied zwischen einem Router und einem Gateway?",
+          "antwort": "Ein Router leitet Datenpakete zwischen verschiedenen Netzwerken weiter, basierend auf IP-Adressen. Ein Gateway fungiert als Verbindungspunkt zwischen zwei verschiedenen Netzwerkprotokollen und kann Daten in unterschiedliche Protokolle umwandeln."
+        },
+        {
+          "frage": "Was bedeutet die MTU (Maximum Transmission Unit) und warum ist sie wichtig?",
+          "antwort": "Die MTU gibt die maximale Größe eines Datenpakets an, das in einem Netzwerk ohne Fragmentierung übertragen werden kann. Eine zu große MTU kann zu Fragmentierung und ineffizienter Übertragung führen."
+        },
+        {
+          "frage": "Erkläre, was QoS (Quality of Service) im Netzwerk bedeutet.",
+          "antwort": "QoS ist ein Mechanismus, der sicherstellt, dass bestimmte Datenverkehrsarten (z.B. Video, Voice) in einem Netzwerk priorisiert werden, um eine konstante Übertragungsqualität zu gewährleisten und Verzögerungen oder Paketverluste zu minimieren."
+        },
+        {
+          "frage": "Was ist der Zweck des ICMP-Protokolls?",
+          "antwort": "Das ICMP (Internet Control Message Protocol) wird für Fehlermeldungen und Diagnosen im Netzwerk verwendet. Es ermöglicht das Senden von Nachrichten, z.B. wenn ein Ziel nicht erreichbar ist (z.B. Ping)."
+        },
+        {
+          "frage": "Was ist ein DHCP-Server und wie funktioniert er?",
+          "antwort": "Ein DHCP-Server (Dynamic Host Configuration Protocol) weist Geräten im Netzwerk automatisch IP-Adressen und andere Netzwerkkonfigurationsparameter (wie Subnetzmaske und Gateway) zu."
+        },
+        {
+          "frage": "Erkläre, was ein VPN (Virtual Private Network) ist und wofür es verwendet wird.",
+          "antwort": "Ein VPN stellt eine verschlüsselte Verbindung zwischen einem Endgerät und einem entfernten Netzwerk her. Es ermöglicht sichere Kommunikation über unsichere Netzwerke wie das Internet und wird oft für den Fernzugriff auf Unternehmensnetzwerke verwendet."
+        }
+      ]
+    }
